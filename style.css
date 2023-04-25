@@ -2,11 +2,11 @@
 
 .main {
     background-image: url(img/invasion2.png);
-    height: 250vh;
+    height: auto;
     background-size:cover ;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 80px;
+    
 }
 
 .navbar {
@@ -83,6 +83,7 @@ footer {
     padding: 2%;
     color: white;
     clear: both;
+    background-color: black;
 }
 
 @font-face {
@@ -103,8 +104,7 @@ footer {
 @media screen and (max-width: 480px){
     .main {
      width: auto;
-     margin: 2%;
-     height: 100vh;
+     height: auto;
     } 
 
     .nav-link {
