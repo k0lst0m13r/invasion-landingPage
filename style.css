@@ -10,7 +10,7 @@
 }
 
 .navbar {
-    margin-left: 4%;
+    margin-left: 1%;
     padding-top: 3%;
 }
 
@@ -20,6 +20,11 @@
     color: rgb(225, 202, 165);
     text-shadow: 3px 3px 7px rgb(1, 248, 1);
     transition: all 0.2s;
+}
+
+.nav-link:hover {
+    color: darkorange;
+    transform: scale(1.5);
 }
 
 
@@ -106,10 +111,6 @@ footer {
         font-size: 1.5rem;
     }
 
-    .nav-link:hover {
-        color: darkorange;
-        transform: scale(1.5);
-    }
 
     #titular{
         margin-top: 15%;
